@@ -9,8 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(#3836A8, #9198e5);
-    
+    background: linear-gradient(#3836A8, #9198e5);   
 }
 main{
     display: flex;
@@ -18,11 +17,10 @@ main{
     margin-top: 100px;
 }
 .titlesG{
-    gap: 100px;
     height: 120px;
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 300px;
 }
 .ladoEsquerdo{
     display: flex;
@@ -30,9 +28,11 @@ main{
     align-items: center;
     text-align: center;
     padding: 20px;
+    width: 350px;
     background: linear-gradient(#013C67, #9198e5);
     box-shadow: 0px 0px 14px 3px #3836A8;
     border-radius: 3%;
+    margin-left: 66px;
 }
 .ladoDireito{
     display: flex;
@@ -40,14 +40,23 @@ main{
     align-items: center;
     text-align: center;
     padding: 20px;
+    width: 350px;
     background: linear-gradient(#013C67, #9198e5);
     border-radius: 3%;
+    margin-left: 50px;
 }
 .textG{
-    gap: 100px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    width: 1380px;
+    gap: 80px;
     margin: 50px;
     margin-left: 100px;
+    background-color: #013C67; 
+    box-shadow: 1px 2px 3px rgba(0.5, 0.5, 0.5, 0.5);
 }
 textarea{
     display: inline-block;
@@ -55,8 +64,23 @@ textarea{
     height: 400px;
     box-shadow: 0px 0px 14px -3px black;
 }
+/*
 .botaoGerar{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 1200px;
+    height: 50px;
+    width: 160px;
+    margin-bottom: 50px;
+    background: linear-gradient(#013C67, #9198e5);
+    box-shadow: 0px 0px 14px 3px #3836A8;
+    border-radius: 3%;
+}
+*/
+#gerar{
+     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
