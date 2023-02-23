@@ -2,44 +2,69 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3836A8;
+    min-height: 100vh;
+    background: linear-gradient(#3836A8, #9198e5);
+    
 }
 main{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    border-radius: 15px;
+    flex-direction: column;
+    margin-top: 100px;
 }
-.ladoEsquerdo {
-    width: 337px;
+.titlesG{
+    gap: 100px;
     height: 120px;
-    text-align: center;
-    font-size: 40px;
-    background-color: #013C67;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
 }
-#espacoHtml{
-    width: 600px;
-    height: 400px;
+.ladoEsquerdo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(#013C67, #9198e5);
+    box-shadow: 0px 0px 14px 3px #3836A8;
+    border-radius: 3%;
 }
 .ladoDireito{
-    width: 337px;
-    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    font-size: 40px;
-    background-color: #013C67;
+    padding: 20px;
+    background: linear-gradient(#013C67, #9198e5);
+    border-radius: 3%;
 }
-#espacoJs{
+.textG{
+    gap: 100px;
+    display: flex;
+    margin: 50px;
+    margin-left: 100px;
+}
+textarea{
+    display: inline-block;
     width: 600px;
     height: 400px;
-
+    box-shadow: 0px 0px 14px -3px black;
 }
-#gerar{
+.botaoGerar{
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 1200px;
+    height: 50px;
+    width: 160px;
+    margin-bottom: 50px;
+    background: linear-gradient(#013C67, #9198e5);
+    box-shadow: 0px 0px 14px 3px #3836A8;
+    border-radius: 3%;
 }
