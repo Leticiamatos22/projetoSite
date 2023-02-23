@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3836A8;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 15px;
+}
+.ladoEsquerdo {
+    width: 337px;
+    height: 120px;
+    text-align: center;
+    font-size: 40px;
+    background-color: #013C67;
+}
+#espacoHtml{
+    width: 600px;
+    height: 400px;
+}
+.ladoDireito{
+    width: 337px;
+    height: 120px;
+    text-align: center;
+    font-size: 40px;
+    background-color: #013C67;
+}
+#espacoJs{
+    width: 600px;
+    height: 400px;
+
+}
+#gerar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
