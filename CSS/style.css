@@ -145,3 +145,12 @@ textarea {
     transition:0.3s;
     
 }
+
+.titlesG{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:300px;
+
+}
