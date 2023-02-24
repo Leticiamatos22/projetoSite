@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800;900&display=swap");
 
+
 /* Zerando o padrão */
 * {
   margin: 0;
@@ -7,6 +8,7 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   font-weight: var(--peso);
+ 
 }
 
 
@@ -21,6 +23,7 @@ body {
     animation: gradiente 3S ease infinite alternate;
     font-size: medium;
     color: white;
+    min-height: 100vh;
 }
 
 @keyframes gradiente{
@@ -34,15 +37,15 @@ body {
 
 header {
     align-items: center;
-    height: 100px;
-    width: 100%;
+    height: 16vh;
+    width: 90vw;
     background:linear-gradient(to top, #4d4a50 10.31%, #1a1919 93.41%);
     box-shadow: 0px 4px 14px 3px #894b8f;
-    margin:50px;
-    margin-bottom: 40px;
     text-align: center;
-    padding-top: 25px;
+    padding: 25px;
     border-radius: 15px;
+    margin-bottom:50px;
+    margin-top:100px;
     
 
 }
@@ -52,6 +55,8 @@ main {
     top:50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    max-width: fit-content;
+    max-height: max-content;
 }
 
 .geral {
@@ -93,21 +98,18 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    height: 500px;
-    width: 1380px;  
+    text-align: center;  
     gap: 80px;
     margin: 50px;
     margin-left: 100px;
-    background:linear-gradient(241.29deg, #4d4a50a4 10.31%, #1a191991 93.41%);
     border-radius: 15px;
     box-shadow: 1px 2px 3pxrgba(0.5, 0.5, 0.5, 0.5);
 }
 
 textarea {
     display: inline-block;
-    width: 600px;
-    height: 400px;
+    width: 25vw;
+    height: 30vh;
     border-radius: 15px;
 }
 
@@ -130,9 +132,9 @@ textarea {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-left: 1200px;
-    height: 50px;
-    width: 160px;
+    margin-left: 70vw;
+    height: 10vh;
+    width: 14vw;
     margin-bottom: 50px;
     box-shadow:2px 2px 14px 2px #894b8f;
     border-radius: 25px;
@@ -151,6 +153,7 @@ textarea {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap:300px;
+    
+    
 
 }
