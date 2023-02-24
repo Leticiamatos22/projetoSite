@@ -44,6 +44,8 @@ body {
   align-items: center;
   background: var(--fundo);
   color: var(--texto);
+  width: 100vw;
+  height: 100vh;
 }
 #page2 {
   display: flex;
