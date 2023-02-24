@@ -1,28 +1,50 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    
 }
-body{
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(#3836A8, #9198e5);   
+    background: linear-gradient(#3836A8, #9198e5);
+    font-size: medium;
+    color: white;
 }
-main{
+
+header {
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: #15405f;
+    box-shadow:0px 2px 14px 3px ;
+    margin-bottom: 90px;
+    margin-top: -90px;
+    text-align: center;
+    padding-top: 25px;
+    
+
+}
+
+main {
     display: flex;
     flex-direction: column;
     margin-top: 100px;
 }
-.titlesG{
+
+.titlesG {
     height: 120px;
     display: flex;
     justify-content: center;
     gap: 300px;
+   
 }
-.ladoEsquerdo{
+
+.ladoEsquerdo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,11 +52,12 @@ main{
     padding: 20px;
     width: 350px;
     background: linear-gradient(#013C67, #9198e5);
-    box-shadow: 0px 0px 14px 3px #3836A8;
+    box-shadow: 0px 4px 14px 3px #3836A8;
     border-radius: 3%;
     margin-left: 66px;
 }
-.ladoDireito{
+
+.ladoDireito {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,10 +65,12 @@ main{
     padding: 20px;
     width: 350px;
     background: linear-gradient(#013C67, #9198e5);
+    box-shadow: 0px 4px 14px 3px #3836A8;
     border-radius: 3%;
     margin-left: 50px;
 }
-.textG{
+
+.textG {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,15 +80,17 @@ main{
     gap: 80px;
     margin: 50px;
     margin-left: 100px;
-    background-color: #013C67; 
+    background-color: #15405f;
     box-shadow: 1px 2px 3px rgba(0.5, 0.5, 0.5, 0.5);
 }
-textarea{
+
+textarea {
     display: inline-block;
     width: 600px;
     height: 400px;
-    box-shadow: 0px 0px 14px -3px black;
+    box-shadow: 0px 2px 14px -3px black;
 }
+
 /*
 .botaoGerar{
     display: flex;
@@ -79,8 +106,8 @@ textarea{
     border-radius: 3%;
 }
 */
-#gerar{
-     display: flex;
+#gerar {
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -89,6 +116,13 @@ textarea{
     width: 160px;
     margin-bottom: 50px;
     background: linear-gradient(#013C67, #9198e5);
-    box-shadow: 0px 0px 14px 3px #3836A8;
-    border-radius: 3%;
+    box-shadow:0px 4px 14px 3px ;
+    border-radius: 4%;
+}
+
+#gerar:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+    outline: 2px solid #70bdca;
+    box-shadow: 4px 5px 17px -4px #268391;
 }
