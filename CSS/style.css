@@ -1,9 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800;900&display=swap");
+
+/* Zerando o padrão */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: var(--peso);
 }
+
 
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -11,29 +16,41 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(#3836A8, #9198e5);
+    background:linear-gradient(241.29deg,#9656c0,#c688f0,#d37fc8,#ca76be, #d8567d, #ca456d);
+    background-size: 400% 400%;
+    animation: gradiente 3S ease infinite alternate;
     font-size: medium;
     color: white;
+}
+
+@keyframes gradiente{
+    0%{ 
+        background-position-x: 0%;
+    }
+    100% {
+        background-position-x:100%;
+    }
 }
 
 header {
     align-items: center;
     height: 100px;
     width: 100%;
-    background-color: #15405f;
-    box-shadow:0px 2px 14px 3px ;
-    margin-bottom: 90px;
-    margin-top: -90px;
+    background:linear-gradient(to top, #4d4a50 10.31%, #1a1919 93.41%);
+    box-shadow: 0px 4px 14px 3px #894b8f;
+    margin:50px;
     text-align: center;
     padding-top: 25px;
+    border-radius: 15px;
     
 
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .titlesG {
@@ -41,6 +58,7 @@ main {
     display: flex;
     justify-content: center;
     gap: 300px;
+ 
    
 }
 
@@ -51,10 +69,10 @@ main {
     text-align: center;
     padding: 20px;
     width: 350px;
-    background: linear-gradient(#013C67, #9198e5);
-    box-shadow: 0px 4px 14px 3px #3836A8;
-    border-radius: 3%;
+    background:linear-gradient(to top, #4d4a50 10.31%, #1a1919 93.41%);
+    box-shadow: 0px 4px 14px 3px #894b8f;
     margin-left: 66px;
+    border-radius: 15px;
 }
 
 .ladoDireito {
@@ -64,10 +82,10 @@ main {
     text-align: center;
     padding: 20px;
     width: 350px;
-    background: linear-gradient(#013C67, #9198e5);
-    box-shadow: 0px 4px 14px 3px #3836A8;
-    border-radius: 3%;
+    background:linear-gradient(to top, #4d4a50 10.31%, #1a1919 93.41%);
+    box-shadow: 0px 4px 14px 3px #894b8f;
     margin-left: 50px;
+    border-radius: 15px;
 }
 
 .textG {
@@ -76,19 +94,20 @@ main {
     align-items: center;
     text-align: center;
     height: 500px;
-    width: 1380px;
+    width: 1380px;  
     gap: 80px;
     margin: 50px;
     margin-left: 100px;
-    background-color: #15405f;
-    box-shadow: 1px 2px 3px rgba(0.5, 0.5, 0.5, 0.5);
+    background:linear-gradient(241.29deg, #4d4a50a4 10.31%, #1a191991 93.41%);
+    border-radius: 15px;
+    box-shadow: 1px 2px 3pxrgba(0.5, 0.5, 0.5, 0.5);
 }
 
 textarea {
     display: inline-block;
     width: 600px;
     height: 400px;
-    box-shadow: 0px 2px 14px -3px black;
+    border-radius: 15px;
 }
 
 /*
@@ -109,20 +128,19 @@ textarea {
 #gerar {
     display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
     margin-left: 1200px;
     height: 50px;
     width: 160px;
     margin-bottom: 50px;
-    background: linear-gradient(#013C67, #9198e5);
-    box-shadow:0px 4px 14px 3px ;
-    border-radius: 4%;
+    box-shadow:2px 2px 14px 2px #894b8f;
+    border-radius: 25px;
+    transition:0.3s;
+    
 }
 
 #gerar:hover {
-    color: #ffffff;
-    transform: scale(1.1);
-    outline: 2px solid #70bdca;
-    box-shadow: 4px 5px 17px -4px #268391;
+    box-shadow:2px 2px 14px 2px #ffffff ;
+    transition:0.3s;
+    
 }
