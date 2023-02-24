@@ -16,7 +16,4 @@ function inserir(){
     //inserir o codigo em js
     let codeJs = document.getElementById('codeJs').value 
     document.getElementById('jsUser').innerHTML = codeJs
-
-    document.getElementById("link").setAttribute("href", "/CSS/style2.css")
-
 }
