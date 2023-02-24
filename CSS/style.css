@@ -39,6 +39,7 @@ header {
     background:linear-gradient(to top, #4d4a50 10.31%, #1a1919 93.41%);
     box-shadow: 0px 4px 14px 3px #894b8f;
     margin:50px;
+    margin-bottom: 40px;
     text-align: center;
     padding-top: 25px;
     border-radius: 15px;
@@ -53,7 +54,7 @@ main {
     transform: translate(-50%,-50%);
 }
 
-.titlesG {
+.geral {
     height: 120px;
     display: flex;
     justify-content: center;
