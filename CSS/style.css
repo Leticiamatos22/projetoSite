@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800;900&display=swap");
 
-
 /* Zerando o padrão */
 * {
   margin: 0;
@@ -10,6 +9,8 @@
   font-weight: var(--peso);
  
 }
+
+
 
 
 body {
@@ -26,8 +27,9 @@ body {
     min-height: 100vh;
 }
 
+
 @keyframes gradiente{
-    0%{ 
+    0%{
         background-position-x: 0%;
     }
     100% {
@@ -35,9 +37,10 @@ body {
     }
 }
 
+
 header {
     align-items: center;
-    height: 16vh;
+    height: 13vh;
     width: 90vw;
     background:linear-gradient(to top, #4d4a50 10.31%, #1a1919 93.41%);
     box-shadow: 0px 4px 14px 3px #894b8f;
@@ -46,9 +49,11 @@ header {
     border-radius: 15px;
     margin-bottom:50px;
     margin-top:100px;
-    
+   
+
 
 }
+
 
 main {
     position:absolute;
@@ -59,14 +64,16 @@ main {
     max-height: max-content;
 }
 
+
 .geral {
-    height: 120px;
+    height:20hv;
     display: flex;
     justify-content: center;
-    gap: 300px;
+    gap: 30px;
  
    
 }
+
 
 .ladoEsquerdo {
     display: flex;
@@ -81,6 +88,7 @@ main {
     border-radius: 15px;
 }
 
+
 .ladoDireito {
     display: flex;
     justify-content: center;
@@ -94,6 +102,7 @@ main {
     border-radius: 15px;
 }
 
+
 .textG {
     display: flex;
     justify-content: center;
@@ -106,12 +115,14 @@ main {
     box-shadow: 1px 2px 3pxrgba(0.5, 0.5, 0.5, 0.5);
 }
 
+
 textarea {
     display: inline-block;
     width: 25vw;
     height: 30vh;
     border-radius: 15px;
 }
+
 
 /*
 .botaoGerar{
@@ -134,26 +145,30 @@ textarea {
     text-align: center;
     margin-left: 70vw;
     height: 10vh;
-    width: 14vw;
+    width: 10vw;
     margin-bottom: 50px;
     box-shadow:2px 2px 14px 2px #894b8f;
     border-radius: 25px;
     transition:0.3s;
-    
+   
 }
+
 
 #gerar:hover {
     box-shadow:2px 2px 14px 2px #ffffff ;
     transition:0.3s;
-    
+   
 }
+
 
 .titlesG{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    
-    
+   
+   
+
 
 }
+
