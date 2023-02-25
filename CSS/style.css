@@ -41,15 +41,14 @@ body {
 header {
     align-items: center;
     height: 13vh;
-    width: 90vw;
+    width: 100vw;
     background:linear-gradient(to top, #4d4a50 10.31%, #1a1919 93.41%);
     box-shadow: 0px 4px 14px 3px #894b8f;
     text-align: center;
     padding: 25px;
     border-radius: 15px;
-    margin-bottom:50px;
-    margin-top:100px;
-   
+    margin-bottom:50px; 
+    margin-top:80px;  
 
 
 }
@@ -69,7 +68,7 @@ main {
     height:20hv;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 140px;
  
    
 }
@@ -84,7 +83,6 @@ main {
     width: 350px;
     background:linear-gradient(to top, #4d4a50 10.31%, #1a1919 93.41%);
     box-shadow: 0px 4px 14px 3px #894b8f;
-    margin-left: 66px;
     border-radius: 15px;
 }
 
@@ -98,7 +96,6 @@ main {
     width: 350px;
     background:linear-gradient(to top, #4d4a50 10.31%, #1a1919 93.41%);
     box-shadow: 0px 4px 14px 3px #894b8f;
-    margin-left: 50px;
     border-radius: 15px;
 }
 
@@ -108,9 +105,8 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;  
-    gap: 80px;
-    margin: 50px;
-    margin-left: 100px;
+    gap: 100px;
+    margin:50px;
     border-radius: 15px;
     box-shadow: 1px 2px 3pxrgba(0.5, 0.5, 0.5, 0.5);
 }
@@ -118,9 +114,10 @@ main {
 
 textarea {
     display: inline-block;
-    width: 25vw;
-    height: 30vh;
+    width: 30vw;
+    height: 28vh;
     border-radius: 15px;
+    background-color: #1a19196d;
 }
 
 
@@ -166,9 +163,15 @@ textarea {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-   
-   
-
+    margin:10px;
 
 }
 
+.imagens{
+    display: flex;
+    width:100vw;
+    justify-content:center;
+    align-items: center;
+    
+    
+}
